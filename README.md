@@ -2,7 +2,7 @@ Akira Hyprland Dotfiles
 
 This repo contains my configuration files for a glass-like hyprland setup. My hyprland config is optimized for my NVIDIA hardware, so you might not need everything in that file. 
 
-
+----------------------------
 + **System Specifications**:
 
     Operating System: Gentoo Linux
@@ -19,7 +19,7 @@ This repo contains my configuration files for a glass-like hyprland setup. My hy
 
     Visualizer: Cava
 
-
+---------------------------
 + **Installation Process**:
 
 
