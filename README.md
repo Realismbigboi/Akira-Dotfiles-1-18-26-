@@ -23,9 +23,6 @@ This repo contains my configuration files for a glass-like hyprland setup. My hy
 + **Installation Process**:
 
 
-  -Prerequisites:
-
-
 Ensure the following packages are installed on your system (I used Gentoo, change package name for other distros like Arch):
 
     gui-wm/hyprland
