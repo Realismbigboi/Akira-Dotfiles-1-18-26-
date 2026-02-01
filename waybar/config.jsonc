@@ -129,7 +129,7 @@
   "custom/cava": {
     "exec": "cava -p ~/.config/cava/config_waybar | sed -u 's/;//g;s/0/_/g;s/1/▂/g;s/2/▃/g;s/3/▄/g;s/4/▅/g;s/5/▆/g;s/6/▇/g;s/7/█/g;'",
     "tail": true,
-    "format": "[{}]"    ,
+    "format": "<span rise='8000'>[{}]</span><span rise='12000'> </span>",
     "min-length": 14,
     "max-length": 14,
     "tooltip": false
