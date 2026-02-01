@@ -3,7 +3,7 @@ Akira Hyprland Dotfiles
 This repo contains my configuration files for a glass-like hyprland setup. My hyprland config is optimized for my NVIDIA hardware, so you might not need everything in that file. 
 
 
-System Specifications
++ **System Specifications**:
 
     Operating System: Gentoo Linux
 
@@ -20,8 +20,11 @@ System Specifications
     Visualizer: Cava
 
 
-Installation Process
-Prerequisites
++ **Installation Process**:
+
+
+-Prerequisites:
+
 
 Ensure the following packages are installed on your system (I used Gentoo, change package name for other distros like Arch):
 
@@ -35,7 +38,9 @@ Ensure the following packages are installed on your system (I used Gentoo, chang
 
     gui-libs/greetd-regreet
 
+
 Install
+
 
     Clone the repository to your local machine.
 
