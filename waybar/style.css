@@ -1,0 +1,172 @@
+/*@import "Akira.css";*/
+
+* {
+  font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 13px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+button {
+  box-shadow: inset 0 -3px transparent;
+  border: none;
+  border-radius: 0;
+}
+
+button:hover {
+  background: inherit;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+#workspaces button.active {
+  padding: 0 5px;
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin:4px;	
+}
+
+#workspaces button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+  background-color: transparent;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.urgent {
+  border-radius: 8px; 
+  padding: 0 5px;
+  margin: 4px;
+  background-color: rgba(235, 77, 75, 0.6);
+  color: #ffffff;
+  border: 1px solid rgba(235, 77, 75, 0.7);
+  box-shadow: 0 0 8px rgba(235, 77, 75, 0.6);
+
+}
+
+#mode {
+  background-color: #64727d;
+  box-shadow: inset 0 -3px #ffffff;
+}
+#custom-power {
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #c3c6c9;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 4px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+}
+#wireplumber {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 0 10px;
+  margin:4px 5px;
+  min-width: 0;
+  color: #c3c6c9;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+#hardware,
+#extras,
+#net,
+#media {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    padding: 0 10px;
+    margin:4px 5px;
+    min-width: 0;
+    color: #c3c6c9;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+#cpu, 
+#memory, 
+#clock,
+#network,
+#window {
+    background-color: transparent;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding-right: 15px;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 0;
+}
+#tray,
+#custom-weather {
+    background-color: transparent;
+    border-right: none;
+    padding-left: 4px;
+}
+#temperature {
+    background-color: transparent;
+    border-right: none;
+    padding-left: 1px;
+}
+#mpd {
+    background-color: transparent;
+    border-right: none;
+    padding-left: 7px;
+}
+#custom-cava {
+    background-color: transparent;
+    border-right: none;
+    padding-left: 5px;
+    font-family: "JetBrainsMono Nerd Font Mono", monospace;
+}
+#tray {
+    padding-right: 2px; 
+}
+#clock {
+    padding-left: 2px;
+}
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+#window {
+  color: #c3c6c9;
+}
+
+.modules-right,
+.modules-left,
+.modules-center {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.24));
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+}
+
+.modules-right {
+  padding: 0 6px;
+}
+
+.modules-left {
+  padding: 0 6px;
+}
+
+.modules-center {
+  padding: 0 6px;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#wireplumber.muted {
+  color: #c3c6c9;
+}
